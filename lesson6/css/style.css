@@ -1,0 +1,49 @@
+.main
+{
+    background: #f3f5f7;
+}
+
+.main_text {
+	font-family: Arvo;
+	color:  #3b3e6a;
+	font-size: 29.71px;
+	font-weight: 400;
+	line-height: 82.18px;
+	text-align: center;
+	transform: scaleY(1.01);
+}
+
+.main_blocks{
+    margin-top: 150px;
+    margin-bottom: 89px;
+}
+
+.main_block_image
+{
+    width: 140px;
+    height: 130px;
+    vertical-align: middle;
+}
+
+.main_block_caption{
+    font-family: Arvo;
+    color:  #3b3e6a;
+    font-size: 22px;
+    font-weight: 400px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.main_block_info{
+    font-family: Noto+Sans;
+    color:  #686b8b;
+    font-size: 20px;
+	text-align: center;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+span
+{
+    display: block;
+}
