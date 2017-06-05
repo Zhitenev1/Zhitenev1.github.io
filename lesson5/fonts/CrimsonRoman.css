@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CrimsonRoman';
+    src: url('fonts/CrimsonRoman.eot');
+    src: url('fonts/CrimsonRoman.eot') format('embedded-opentype'),
+         url('fonts/CrimsonRoman.woff2') format('woff2'),
+         url('fonts/CrimsonRoman.woff') format('woff'),
+         url('fonts/CrimsonRoman.ttf') format('truetype'),
+         url('fonts/CrimsonRoman.svg#CrimsonRoman') format('svg');
+}
