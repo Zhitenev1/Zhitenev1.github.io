@@ -1,0 +1,183 @@
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+body {
+  color: #202242;
+}
+/* fonts */
+@font-face {
+  font-family: "RockwellRegular";
+  src: url("fonts/RockwellRegular/RockwellRegular.eot");
+  src: url("fonts/RockwellRegular/RockwellRegular.eot?#iefix") format("embedded-opentype"), url("fonts/RockwellRegular/RockwellRegular.woff") format("woff"), url("fonts/RockwellRegular/RockwellRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "RockwellBoldItalic";
+  src: url("fonts/RockwellBoldItalic/RockwellBoldItalic.eot");
+  src: url("fonts/RockwellBoldItalic/RockwellBoldItalic.eot?#iefix") format("embedded-opentype"), url("fonts/RockwellBoldItalic/RockwellBoldItalic.woff") format("woff"), url("fonts/RockwellBoldItalic/RockwellBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* fonts mixin */
+.reg {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.semi {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.bold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.header-font {
+  font-family: "RockwellRegular";
+  font-weight: 400;
+}
+.header-font-bold {
+  font-family: "RockwellBoldItalic";
+  font-weight: 700;
+}
+/* color mixins */
+/* header styles */
+header {
+  height: 100vh;
+  min-height: 60rem;
+  background: url(../img/main-img.jpg) no-repeat center center;
+  background-size: cover;
+}
+.header-top-block {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  height: 14rem;
+}
+.header-logo {
+  height: 14rem;
+  line-height: 14rem;
+}
+.header-logo img {
+  vertical-align: middle;
+}
+.header-logo span {
+  font-family: "RockwellBoldItalic";
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+.header-nav {
+  border-right: 1px solid rgba(164, 164, 164, 0.1);
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  text-align: center;
+  height: 14rem;
+  line-height: 14rem;
+}
+.header-nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.header-nav li a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #202242;
+}
+.header-nav li a:hover {
+  text-decoration: none;
+}
+.header-nav li.item_active a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #ffe13e;
+}
+.header-callback {
+  text-align: center;
+}
+.header-callback_text p {
+  padding-bottom: 1rem;
+  padding-top: 3.5rem;
+  font-size: 1.2rem;
+}
+.header-callback_btn {
+  display: inline-block;
+  padding: 1rem 3rem;
+  margin-right: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  background-color: #ffe13e;
+  color: #202242;
+}
+.header-callback_phone {
+  font-size: 2.5rem;
+  font-weight: semi-bold;
+  color: #202242;
+  padding-left: 2rem;
+  border-left: 2px solid rgba(164, 164, 164, 0.1);
+}
+.header-text-block {
+  padding-top: 10%;
+  text-align: center;
+  color: #ffffff;
+}
+.header-text-block h1 {
+  font-size: 4.8rem;
+  font-family: "RockwellRegular";
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.header-text-block p {
+  font-size: 3rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.header-main-img {
+  margin-top: 4rem;
+}
+.main-form-block {
+  width: 60rem;
+  height: 9rem;
+  margin: 6rem auto;
+  text-align: center;
+  padding-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.main-form-input {
+  display: inline-block;
+  background-color: #fff;
+  padding: 1.5rem;
+  height: 5rem;
+  vertical-align: middle;
+  margin-right: -4px;
+  border: none;
+  width: 40%;
+}
+.main-form-btn {
+  display: inline-block;
+  border: none;
+  background-color: #ffe13e;
+  color: #fff;
+  height: 5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 0.3rem;
+}
+.input-addon {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  background-color: #ffe13e;
+  height: 5rem;
+  width: 8rem;
+  margin-right: -3px;
+  line-height: 5rem;
+  vertical-align: middle;
+}
