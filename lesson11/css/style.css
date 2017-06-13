@@ -1,0 +1,77 @@
+body {
+  height: 500px;
+  width: 500px;
+  background: url('https://cdn.vox-cdn.com/thumbor/5qj_mtHFhE0Us20MwNS0zDmz3Ec=/0x0:2880x1800/1200x800/filters:focal(1095x597:1555x1057)/cdn.vox-cdn.com/uploads/chorus_image/image/54858361/c42ac6a0c2aaee69c79955d1d32c54b4_large.0.0.jpeg') no-repeat center center;
+}
+
+.box {
+  margin-left: 750px;
+  margin-top: 130px;
+  border: 5px solid #000;
+  border-radius: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.box_bg {
+  background: url('http://navakashop.com/wp-content/uploads/2016/09/jual-mainan-minion-despicable-me-Stuart.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.box:hover {
+  -webkit-box-shadow: 10px 10px 50px 3px #666;
+  box-shadow: 10px 10px 50px 3px #666;
+  border-radius: 50px;
+}
+.box:hover .wrap {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.wrap {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+.sign {
+  text-align: center;
+}
+.sign a {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: block;
+  width: 200px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  margin-top: 10px;
+}
+.sign a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #0077e5;
+  color: #111;
+  font-size: 24px;
+}
